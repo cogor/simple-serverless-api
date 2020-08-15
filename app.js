@@ -9,8 +9,9 @@ const jwt = require("jsonwebtoken");
 const secret = "dhsdfhdsftjfgnftyr564535";
 
 const docClient = new AWS.DynamoDB.DocumentClient();
-// Routes
 app.use(express.json());
+
+// Routes
 app.get("/", (req, res) => {
   res.send("hello");
 });
