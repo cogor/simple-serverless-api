@@ -1,0 +1,10 @@
+org: cogor
+app: express-test
+service: express-test
+component: express
+name: express-test
+provider:
+  name: aws
+  region: eu-central-1
+inputs:
+  src: ./
