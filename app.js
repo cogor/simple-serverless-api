@@ -2,11 +2,12 @@
 
 const express = require("express");
 const AWS = require("aws-sdk");
+require("dotenv").config();
 const bcrypt = require("bcryptjs");
 const uuid = require("uuid");
 const app = express();
 const jwt = require("jsonwebtoken");
-const secret = "dhsdfhdsftjfgnftyr564535";
+const secret = process.env.JWT_SECRET;
 
 const docClient = new AWS.DynamoDB.DocumentClient();
 app.use(express.json());
