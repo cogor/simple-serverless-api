@@ -1,7 +1,7 @@
 {
-  "name": "src",
+  "name": "simple-serverless-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple serverless API with express.js",
   "main": "app.js",
   "dependencies": {
     "aws-sdk": "^2.734.0",
@@ -14,6 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ilya Artamonov",
+  "homepage": "https://github.com/cogor/simple-serverless-api",
   "license": "ISC"
 }
