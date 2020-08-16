@@ -5,11 +5,12 @@ require("dotenv").config();
 const app = express();
 const users = require("./routes/users");
 const auth = require("./routes/auth");
-
+const posts = require("./routes/posts");
 // Routes
 app.use(express.json());
 app.use("/users", users);
 app.use(auth);
+app.use(posts);
 app.get("/", (req, res) => {
   res.send("hello");
 });
