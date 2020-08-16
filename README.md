@@ -1,4 +1,4 @@
-# Simple serverless API with express.js and
+# Simple serverless API with express.js
 
 Simple example of API for CRUD application on Vue.js and DynamoDB as database
 
